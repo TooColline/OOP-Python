@@ -13,6 +13,18 @@ class User:
     def save(self):
         pass
 
+    def query(self):
+        pass
+
+    def filter_by(self):
+        pass
+    
+    def update(self):
+        pass
+
+    def delete(self):
+        pass
+
 class Question:
 
     def __init__(self, data={}):
@@ -27,7 +39,17 @@ class Question:
     def query(self):
         pass
 
+    def filter_by(self):
+        pass
+
+    def update(self):
+        pass
+
+    def delete(self):
+        pass
+        
 class Answer:
+
     def __init__(self, data={}):
         self.user_id = data.get('user_id')
         self.answer_id = data.get('answer_id')
@@ -36,6 +58,18 @@ class Answer:
         self.accepted = data.get('accepted', False)
 
     def save(self):
+        pass
+
+    def query(self):
+        pass
+
+    def filter_by(self):
+        pass
+
+    def update(self):
+        pass
+
+    def delete(self):
         pass
 
 class Comment:
